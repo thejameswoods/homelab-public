@@ -1,0 +1,19 @@
+# Generic Homelab Gitignore
+
+# Credentials & Secrets (Even though this is public, better safe than sorry)
+.env
+*.env
+secrets.yaml
+credentials.json
+*.pem
+*.key
+
+# Common temporary and log files
+*.log
+tmp/
+temp/
+.cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
